@@ -1,0 +1,49 @@
+<!-- res/drawable/button_shape.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <gradient
+                android:startColor="#dafae18e"
+                android:centerColor="#fcd148"
+                android:endColor="#d5fae18e"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="#d1d1d1" />
+            <corners
+                android:topLeftRadius="25dp"
+                android:topRightRadius="10dp"
+                android:bottomRightRadius="25dp"
+                android:bottomLeftRadius="10dp"
+                />
+            <padding
+                android:left="1dp"
+                android:top="1dp"
+                android:right="1dp"
+                android:bottom="1dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="#daf7ce44"
+                android:centerColor="#f9bf07"
+                android:endColor="#daf7ce44"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="#d1d1d1" />
+            <corners
+                android:topLeftRadius="25dp"
+                android:topRightRadius="10dp"
+                android:bottomRightRadius="25dp"
+                android:bottomLeftRadius="10dp" />
+            <padding
+                android:left="1dp"
+                android:top="1dp"
+                android:right="1dp"
+                android:bottom="1dp" />
+        </shape>
+    </item>
+
+</selector>

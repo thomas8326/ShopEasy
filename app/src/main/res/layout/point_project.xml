@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageColor"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="調味品"
+                android:id="@+id/p_beer"
+                android:layout_weight="1"
+                android:textColor="#374c6f"
+                android:drawableLeft="@drawable/wine"
+                android:background="@drawable/button_delall"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="清潔用品"
+                android:background="@drawable/button_delall"
+                android:id="@+id/p_clean"
+                android:drawableLeft="@drawable/clean"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#374c6f"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="沐浴保養"
+                android:drawableLeft="@drawable/shower"
+
+                android:background="@drawable/button_delall"
+                android:id="@+id/p_shower"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#374c6f"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_delall"
+                android:text="料理廚具"
+                android:drawableLeft="@drawable/cook"
+                android:id="@+id/p_cooking"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#374c6f"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="零食飲料"
+                android:drawableLeft="@drawable/cookie"
+
+                android:id="@+id/p_drinking"
+                android:background="@drawable/button_delall"
+                android:textColor="#374c6f"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="食品雜貨"
+                android:id="@+id/p_eating"
+                android:drawableLeft="@drawable/can"
+                android:background="@drawable/button_delall"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#374c6f"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_margin="5dp"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

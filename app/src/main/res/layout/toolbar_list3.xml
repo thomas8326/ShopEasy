@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageColor">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:id="@+id/map"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="32dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/list3_food"
+                android:layout_marginTop="5dp"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/list3_now"
+                android:layout_marginTop="5dp"
+                android:layout_column="20"
+                android:layout_marginLeft="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:id="@+id/explanation1"
+                android:layout_marginTop="5dp"
+                android:layout_column="0"
+                android:layout_marginLeft="20dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:id="@+id/explanation2"
+
+                android:layout_marginTop="5dp"
+                android:layout_column="20"
+                android:layout_marginLeft="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

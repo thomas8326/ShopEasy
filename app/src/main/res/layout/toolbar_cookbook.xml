@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:padding="4dp"
+android:gravity="center_horizontal"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PageColor"
+    >
+
+    <LinearLayout android:orientation="horizontal"
+        android:gravity="center" android:measureWithLargestChild="true"
+        android:layout_width="match_parent" android:layout_height="60dp"
+       >
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cookbook_search"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>   <LinearLayout android:orientation="horizontal"
+    android:gravity="center" android:measureWithLargestChild="true"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_weight="0">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck_viewGroup" />
+
+
+</LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cookbook_frg"></FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="PageColor">#f9ecd8</color>
+    <color name="drawerBackgroundColor">#FFFAFAFA</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="hintTextColor">#FF010101</color>
+    <drawable name="class_zero_background">#7f040000</drawable>
+
+    <drawable name="red_normal">#e5e3e3</drawable>
+    <drawable name="red_pressed">#FFDAD8D8</drawable>
+    <!-- text color -->
+    <drawable name="text_color_red">#ffff4444</drawable>
+    <drawable name="text_color_black">#ff000000</drawable>
+    <color name="text_hairline">#ffcccccc</color>
+    <color name="message_count_color">#66333333</color>
+    <!-- Chat "sent time" text background -->
+    <color name="timestamp_color">#bf000000</color>
+
+    <!-- the background color used for unread conversation -->
+    <color name="unread_bgcolor">#ffffffff</color>
+    <color name="read_bgcolor">#ffeeeeee</color>
+
+    <color name="widget_sender_text_color_read">#555555</color>
+    <color name="widget_sender_text_color_unread">#333333</color>
+    <color name="widget_subject_text_color_read">#777777</color>
+    <color name="widget_subject_text_color_unread">#555555</color>
+
+    <color name="holiday1">#f71d36</color>
+    <color name="holiday2">#fca542</color>
+    <color name="holiday3">#78acf5</color>
+    <color name="holiday4">#3F51B5</color>
+    <color name="holiday5">#50ea86</color>
+    <color name="holiday6">#d857ec</color>
+    <color name="holiday7">#ef5276</color>
+
+
+</resources>

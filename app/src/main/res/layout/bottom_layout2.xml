@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_layout2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="79dp"
+    android:background="#79aaf2"
+    android:baselineAligned="false"
+    >
+
+    <RelativeLayout
+        android:id="@+id/MyFavoriteLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+
+
+        <ImageView
+            android:id="@+id/Favroite_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/favorite" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ShoppingCarLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/ShoppingCar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/shoppingcar"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/ProjectLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/Project_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/project" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/MapLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+
+        <ImageView
+            android:id="@+id/Map_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/map"
+
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
